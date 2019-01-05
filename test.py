@@ -24,3 +24,11 @@ def multi(a):
         i = i + 1
 
 multi(3)        
+
+
+"""
+"""
+f = open('d:\\readme.txt')
+lines = f.readlines()
+import sys
+sys.stdout.writelines(lines[:5])
